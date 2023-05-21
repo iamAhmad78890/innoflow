@@ -1,0 +1,43 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+a:hover{
+    color: #E83A16;
+}
+
+
+.nav-btn button {
+    background-color: #E83A16;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-left: auto;
+}
