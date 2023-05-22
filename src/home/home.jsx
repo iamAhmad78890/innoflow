@@ -7,11 +7,11 @@ const Home = () => {
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-6'>
-            <img className='mt-5 ' src="./images/plumber-2.png" alt="" style={{ height: "auto" }} />
+            <img className='mt-5 ' src="./images/plumber-2.png" alt="" style={{ height: "900px",width:"100%" }} />
           </div>
           <div className='col-6 mt-5'>
             <div className='hero_section_content'>
-              <h1>People are still being <br />  <b className='hero_section_heading_injured'> injured </b> </h1>
+              <h2>People are still being <br />  <b className='hero_section_heading_injured'> injured </b> </h2>
               <p className='w-75 mt-4'>The installation of coiled HDPE pipe poses a major safety riskdue to the stored energy within the pipe</p>
               <p className='w-75'>As a result, the use of larger Ø180 coiled pipe is no longer used in many areas.However, the problem still persists on smaller coil sizes too.</p>
               <div>
@@ -100,7 +100,7 @@ const Home = () => {
 
       {/* specification section start */}
       <div class="container mt-5 mb-5">
-        <h1 className='text-center'>
+        <h1 className='text-center specification_section'>
           Specification
         </h1>
         <div>
@@ -109,8 +109,8 @@ const Home = () => {
             <table class="table  table-striped table-bordered center">
               <thead>
                 <tr>
-                  <th>Description</th>
-                  <th>Specification</th>
+                  <th className='table_heading'>Description</th>
+                  <th className='table_heading'>Specification</th>
 
 
                 </tr>
@@ -163,7 +163,7 @@ const Home = () => {
           </div>
           <div>
             <textarea className='form-mass' rows="10" cols="70" name="comment" form="usrform">  Message</textarea>
-            <div>
+            <div className='btn-contact'>
               <button className='form-btn'>Contact us</button>
             </div>
           </div>
