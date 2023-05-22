@@ -47,50 +47,51 @@ const Home = () => {
         <div class="container px-4 barflour_section">
           <h1 >Balfour beatty</h1>
           <div className='my-5'>
-            <p className='text-center'>“LaySAFE now allows us to lay pipes far much more efficiently, and more importantly eliminates the historic Health and Safety risks associated with pulling coiled pipes from trailers. We provided feedback in the early development of the product, and used it in early trials throughout 2021. LaySAFE will go onto be a huge benefit to the whole pipe laying industry.’’</p>
+            <p className='text-center mb-5'>“LaySAFE now allows us to lay pipes far much more efficiently, and more importantly eliminates the historic Health and Safety risks associated with pulling coiled pipes from trailers. We provided feedback in the early development of the product, and used it in early trials throughout 2021. LaySAFE will go onto be a huge benefit to the whole pipe laying industry.’’</p>
           </div>
           <div class="row gx-5">
-            <div class="col">
-              <div style={{
-                backgroundImage: `url("./images/c5f99cd7-8306-4f3e-a616-bc5bc939f526.jpeg")`
-              }}
-                class="p-3  engineer-1">
-                <div className='head-1'>
-                  <h1>Engineer to work</h1>
-                  <p> Innoflow’s patent pending LaySAFE® solution reduces the stored energy withincoiled pipes as they come off the pipe installation trailer.
-                    In combination with its novel chute design and whilst following correct procedure with a tail end strap,it also helps to better stabilise and control the pipe inside the trailer.
-                    In combination with its novel chute design and whilst following correct procedure with a tail end strap,it also helps to better stabilise and control the pipe inside the trailer.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col">
-              <div style={{
-                backgroundImage: `url("./images/Engineer2.jpeg")`
-              }}
-                class="p-3  engineer-2">
-                <div className='head-1'>
-                  <h1 >Flexible supply options.</h1>
-                  <p> Innoflow’s patent pending LaySAFE® solution reduces the stored energy withincoiled pipes as they come off the pipe installation trailer.
-                    In combination with its novel chute design and whilst following correct procedure with a tail end strap,it also helps to better stabilise and control the pipe inside the trailer.
-                    In combination with its novel chute design and whilst following correct procedure with a tail end strap,it also helps to better stabilise and control the pipe inside the trailer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div style={{
-                backgroundImage: `url("./images/engineer3.jpg")`
-              }}
-                class="p-3   engineer-3">
-                <div className='head-1' >
-                  <h1 >Saves time and cost</h1>
-                  <p> Innoflow’s patent pending LaySAFE® solution reduces the stored energy withincoiled pipes as they come off the pipe installation trailer.
-                    In combination with its novel chute design and whilst following correct procedure with a tail end strap,it also helps to better stabilise and control the pipe inside the trailer.
-                    In combination with its novel chute design and whilst following correct procedure with a tail end strap,it also helps to better stabilise and control the pipe inside the trailer.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="col">
+     <div  
+      class="p-3  engineer-1">
+        <div className='eng-icon'>
+        <i class="fa-brands fa-slack"></i>  
+        
+        </div>
+        <div  className='head-1'>
+          <h1>heading 1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non sapiente reprehenderit dolorum aperiam temporibus cum harum fugiat! Tempore aliquid officia non eaque optio corrupti voluptas incidunt ducimus temporibus cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolorem deleniti ut animi, numquam cum tenetur velit alias blanditiis provident dolores unde accusantium laudantium sequi aspernatur vel. Natus, suscipit quae!</p>
+        </div>
+      </div>
+    </div>
+    <div 
+    class="col">
+      <div 
+      class="p-3  engineer-2">
+        <div className='eng-icon'>
+        <i class="fa-solid fa-network-wired"></i>
+        </div>
+
+        <div className='head-1'>
+          <h1 >heading 1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non sapiente reprehenderit dolorum aperiam temporibus cum harum fugiat! Tempore aliquid officia non eaque optio corrupti voluptas incidunt ducimus temporibus cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolorem deleniti ut animi, numquam cum tenetur velit alias blanditiis provident dolores unde accusantium laudantium sequi aspernatur vel. Natus, suscipit quae!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div  
+      class="p-3   engineer-3">
+        <div className='eng-icon'>
+        <i class="fa-solid fa-stopwatch-20"></i>
+    
+        </div>
+
+        <div className='head-1' >
+          <h1 >heading 1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non sapiente reprehenderit dolorum aperiam temporibus cum harum fugiat! Tempore aliquid officia non eaque optio corrupti voluptas incidunt ducimus temporibus cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolorem deleniti ut animi, numquam cum tenetur velit alias blanditiis provident dolores unde accusantium laudantium sequi aspernatur vel. Natus, suscipit quae!</p>
+        </div>
+      </div>
+    </div>
+  </div>
           <div className='mt-5'>
             <p>“LaySAFE now allows us to lay pipes far much more efficiently, and more importantly eliminates the historic Health and Safety risks associated with pulling coiled pipes from trailers. We provided feedback in the early development of the product, and used it in early trials throughout 2021. LaySAFE will go onto be a huge benefit to the whole pipe laying industry.’’</p>
           </div>
